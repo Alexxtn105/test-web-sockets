@@ -1,6 +1,6 @@
 # Тестовый проект с использованием Web-Sockets (пакет [Gorilla Web Socket](https://github.com/gorilla/websocket))
 
-Установка пакета Gorilla Web Socket:
+Установка пакета Gorilla WebSocket:
 ```bash
 go get github.com/gorilla/websocket 
 ```

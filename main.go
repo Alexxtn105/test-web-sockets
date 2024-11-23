@@ -49,7 +49,7 @@ func main() {
 	//fmt.Println("Hello, World!")
 	http.HandleFunc("/ws", handleWebSocket)
 	addr := "localhost:8080"
-	fmt.Println("Serever starting listening at", addr, "/ws")
+	fmt.Printf("Server starting at: %s/ws\n", addr)
 	if err := http.ListenAndServe(addr, nil); err != nil {
 		log.Fatal(err)
 	}
